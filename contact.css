@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0px;
+    font-family:'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    }
+    .call{
+        color: white;
+        left: 26%;
+        position: absolute;
+        top: 27%;
+    }
+    .ai{
+        color: white;
+        position: absolute;
+        left: 26%;
+        top: 45%;
+    }
+    .din{
+        color: white;
+        position: absolute;
+        left: 26%;
+        top: 63%;
+    }
+    .pi{
+        color: white;
+        position: absolute;
+        left: 26%;
+        top: 80%;
+    }
+    .in{
+        position: absolute;
+        left: 18%;
+        top: 60%;
+        
+    }
+    .in img{
+        width: 8vh;
+        height: 7vh;
+    }
+    .pn{
+        position: absolute;
+        left: 17%;
+        top: 75%;
+    }
+    .pn img{
+        width: 10vh;
+
+    }
+    .il{
+        position: absolute;
+        top: 40%;
+        left: 17%;
+
+    }
+    .il img{
+        width: 10vh;
+    }
+    .ne{
+        position: absolute;
+        left: 17%;
+        top: 25%;
+
+    }
+    .ne img{
+        width: 7vh;
+
+    }
+    .ad{
+        position: absolute;
+        color: green;
+        left: 50%;
+        top: 10%;
+        font-weight: bold;
+    }
