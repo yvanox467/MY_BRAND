@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0px;
+    font-family:'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    }
+.Hd{
+    position: absolute;
+    color: green;
+    left: 47%;
+    top: 10%;
+}
+.Adl img{
+    position: absolute;
+    left: 17%;
+    top: 30%;
+    height: 32%;
+    width: 35%;
+}
+
+.ihz{
+    position: absolute;
+    left: 17%;
+    top: 70%;
+}
+.Adlxt{
+    position: absolute;
+    left: 55%;
+    color: white;
+    top: 35%;
+
+}
+
+.ihzxt{
+    position:absolute;
+    left: 55%;
+    color: white;
+    top: 75%;
+}
