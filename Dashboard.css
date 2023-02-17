@@ -1,0 +1,210 @@
+.form{
+   
+    height: 90vh;
+    position: absolute;
+    margin: 1px;
+    left: 0%;
+}
+.qey{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+
+}
+.qey button{
+    width: 27vh;
+    position: absolute;
+    left: 5px;
+}
+
+.art{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+.art button{
+    width: 27vh;
+    position: absolute;
+    left: 5px;
+}
+.art button a{
+    color: black;
+    text-decoration: none;
+}
+.art :hover{
+    background-color: #259FA7;
+    color: white;
+}
+
+.date{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+.date button{
+    width: 27vh;
+    position: absolute;
+    left: 5px;
+}
+
+.viw {
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    text-decoration: none;
+}
+.viw button{
+    position: absolute;
+    width: 27vh;
+    left: 5px;
+}
+.viw button a{
+    text-decoration: none;
+    color: black;
+}
+.viw :hover{
+    background-color: #259FA7;
+    color: white;
+}
+.dash{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+.dash button{
+    width: 27vh;
+    position: absolute;
+    left: 5px;
+}
+.mof{
+    background-color: #259FA7;
+    margin: 50px;
+    left: 11.1%;
+    top: 5%;
+    height: 87%;
+    width: 85%;
+    position: absolute;
+}
+.rew{
+    position: absolute;
+    left: 20%;
+    top: 5%;
+}
+.rew img{
+    width: 150px;
+}
+.rew label{
+    font-weight: bolder;
+    color: black;
+    top: 100%;
+    left: 25%;
+    position: absolute;
+}
+.rew p{
+    color: black;
+    font-weight: bolder;
+    position: absolute;
+    left: 100%;
+    font-size: x-large;
+    top: 20%;
+}
+.min {
+    position: absolute;
+    top: 0.5%;
+    left: 70%;
+}
+.min img{
+    width: 80px;
+}
+.min p{
+    left: 100%;
+    position: absolute;
+    top: 20%;
+}
+.cribe{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+}
+.cribe img{
+    width: 150px;
+}
+.cribe label{
+    font-weight: bolder;
+    color: black;
+    top: 100%;
+    font-size: larger;
+    left: 20%;
+    position: absolute;
+}
+.cribe p{
+    color: black;
+    position: absolute;
+    left: 100%;
+    top: 10%;
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+.kie{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    background-color: aliceblue;
+}
+.kie img{
+    width: 100px;
+}
+.kie label{
+    font-weight: bolder;
+    color: black;
+    top: 110%;
+    left: 30%;
+    position: absolute;
+}
+.kie p{
+    color: black;
+    position: absolute;
+    left: 110%;
+    top: 5%;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.ment{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.ment img{
+    width: 150px;
+}
+.ment label{
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    top: 100%;
+    position: absolute;
+    left: 15%;
+}
+.ment p{
+    color: black;
+    position: absolute;
+    left: 100%;
+    top: 10%;
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+.ot a{
+    left: 94%;
+    top: 5%;
+    position: absolute;
+}
+.ot button a{
+    width: 10vh;
+    position: absolute;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    height: 15px;
+}
