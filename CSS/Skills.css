@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0px;
+    font-family:'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    }
+.ski{
+    color: white;
+    
+}
+.ski img{
+    position: absolute;
+    height: 30%;
+    width: 20%;
+    left: 17%;
+    top: 25%;
+}
+.ski h4{
+    color: green;
+    top: 55%;
+    left: 25%;
+    position: absolute;
+
+}
+
+.ht{
+ 
+
+}
+.ht img{
+    position: absolute;
+    left: 50%;
+    height: 23%;
+    width: 13%;
+    top: 30%;
+}
+.ht h4{
+    color: green;
+    position: absolute;
+    left: 55%;
+    
+    top: 55%;
+}
+
+.ss{
+    position: absolute;
+    left: 80%;
+    top: 27%;
+    height: 10%;
+}
+.ss img{
+    width: 30vh;
+    height: 26vh;
+    top: 70%;
+
+}
+.ss h4{
+    color: green;
+    left: 43%;
+    position: absolute;
+}
+
+.js{
+    position: absolute;
+    left: 80%;
+    height: 10vh;
+    width: 50vh;
+    top: 70%;
+    left: 17%;
+}
+.js img{
+    width: 30vh;
+    height: 30vh;
+}
+.js h4{
+    color: green;
+    left: 20%;
+    position: absolute;
+}
+
+.ct{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+
+    
+}
+.ct img{
+    height: 30vh;
+    width: 30vh;
+    top: 50%;
+
+}
+.ct h4{
+    color: green;
+    left: 40%;
+    position: absolute;
+}
+.had{
+    color: green;
+    left: 50%;
+    position: absolute;
+    top: 10%;
+
+}
+@media only screen and (max-width :50em) {
+    .ct{
+        position: absolute;
+        top: 185%;
+        left: 30%;
+    }
+    .js{
+        
+        position: absolute;
+        top: 150%;
+        left: 30%;
+    }
+    .ss{
+        position: absolute;
+        top: 115%;
+        left: 30%;
+    }
+    .ht img{
+        position: absolute;
+        top: 75%;
+        width: 50%;
+        left: 30%;
+    
+    }
+    .ht h4{
+        position: absolute;
+        top: 105%;
+        left: 50%;
+    }
+    .ski img{
+        position: absolute;
+        left: 30%;
+        width: 50%;
+        top: 35%;
+    }
+    .ski h4{
+        position:absolute;
+        left: 47%;
+        top: 67%;
+    }
+    .had{
+        left: 45%;
+    }
+
+
+}

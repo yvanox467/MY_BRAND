@@ -8,14 +8,12 @@
       .or{
         position: absolute;
         border-color: red;
-        top: 30%;
-        left: 45%;
-        
-        height: 60%;
-        border-radius: 10%;
-
-        background-color: rgb(132, 218, 132);
-
+        top: 40%;
+        left: 40%;
+        width: 30%;
+        height: 50%;
+        border-radius: 10px;
+       background-color: rgb(132, 218, 132);
         font-size: 25px;
         font-style: normal;
         line-height: 43px;
@@ -27,8 +25,8 @@
         color: white;
         height: 90%;
         
-        background-color: rgba(92, 147, 66, 0.4);
-        background-color: rgba(92, 147, 66, 0.4);
+        background-color: rgba(132,218,132);
+        background-color: rgba(132,218,132);
     }
     
     .or form p{
@@ -43,10 +41,10 @@
         background-color: white;
         height: 50px;
         border-radius: 40%;
-        width: 100%;
+        padding: 2%;
+        left: 12%;
         box-sizing: border-box;
-        width: 307px;
-
+        width: 90%;
         height: 35px;
         background: #D9D9D9;
         border: 1px solid #FFFFFF;
@@ -63,17 +61,24 @@
         height: 40px;
         border-radius: 15px;
     }
+    .ton button a{
+        color: white;
+        background-color: rgba(0, 0, 0, 0);
+        text-decoration: none;
+    }
     .gn{
         color: blue;
         background-color:rgba(0, 0, 0, 0);
         width: fit-content;
         position: absolute;
-        top: 65%;
+        top: 240px;
+        left: 195px;
     }
     .gn a{
         color: blue;
         font-size:small;
         background-color: rgba(0, 0, 0, 0);
+        text-decoration: none;
     }
     .ou{
         background-color:rgba(0, 0, 0, 0);
@@ -119,3 +124,19 @@
     .st{
         background-color: blue;
     }
+    @media only screen and (max-width: 50rem) {
+        body {
+          font-size: 14px;
+        }
+        .or{
+          position: absolute;
+          width: 75%;
+          left: 10%;
+
+        }
+
+        .tac input {
+          width: 100%;
+        }
+      }
+   

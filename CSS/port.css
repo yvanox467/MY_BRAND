@@ -19,7 +19,7 @@
     width: 35%;
 }
 
-.ihz{
+.ihz img{
     position: absolute;
     left: 17%;
     top: 70%;
@@ -37,4 +37,34 @@
     left: 55%;
     color: white;
     top: 75%;
+}
+@media only screen and (max-width: 50em){
+    .Adl img{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 80%;
+    }
+    .ihz img{
+        position: absolute;
+        width: 80%;
+        left: 10%;
+    }
+    .Adlxt{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+    }
+    .ihzxt{
+        position: absolute;
+        top: 100%;
+        left: 10%;
+
+    }
+    .Hd{
+        position: absolute;
+        left: 30%;
+        top: 10%;
+    
+    }
 }

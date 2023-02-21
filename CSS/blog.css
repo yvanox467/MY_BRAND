@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+margin: 0px;
+font-family:'Josefin Sans',sans-serif;
+box-sizing: border-box;
+background-color: black;
+}
+.bol{
+    position: absolute;
+    left: 7%;
+    width: 35vh;
+    top: 20%;
+    height: 30px;
+}
+.bol img{
+    width: 150%;
+    height: 250px;
+    position: absolute;
+    top: 10vh;
+}
+.bol label{ 
+    color: aliceblue;
+    top: 50vh;
+    left: 13%;
+    position: absolute;
+}
+.bol button a{
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    height: 5vh;
+    border-radius: 25px;
+    background-color: green;
+    position: absolute;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 10px;
+    left: 25%;
+    top: 55vh;
+
+}
+.bol button a:hover{
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+}
+.bol label:hover{
+    color: yellow;
+}
+.bul{
+    position: absolute;
+    width: 35vh;
+    height: 30px;
+    top: 30%;
+    left: 40%;
+
+}
+.bul img{
+    width: 150%;
+    height: 250px;
+}
+.bul label{
+    color: aliceblue;
+    position: absolute;
+    top: 40vh;
+    left: 15%;
+}
+.bul button{
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    height: 5vh;
+    border-radius: 25px;
+    background-color: green;
+    position: absolute;
+    text-align: center;
+    margin-top: auto;
+    left: 45%;
+    top: 45vh;
+}
+.bul button:hover{
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+}
+.bul label:hover{
+    color: yellow;
+}
+.eng{
+    position: absolute;
+    width: 35vh;
+    top: 30%;
+    left: 70%;
+    height: 30px;
+}
+.eng img{
+    width: 150%;
+    height: 250px;
+}
+.eng label{
+    color: aliceblue;
+    position: absolute;
+    top: 40vh;
+    left: 15%;
+}
+.eng label:hover{
+    color: yellow;
+}
+.eng button{
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    height: 5vh;
+    border-radius: 25px;
+    background-color: green;
+    position: absolute;
+    text-align: center;
+    margin-top: auto;
+    left: 45%;
+    top: 45vh;
+}
+.eng button:hover{
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+}
+.hd{
+    color: green;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    font-weight: bolder;
+    font-size:large;
+}
+
+
+.low{
+    color: white;
+    background-color: rgb(190, 212, 202);
+    width: 100%;
+    height: 50%;
+    top: 130%;
+    position: absolute;
+
+}
+.mes{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.mes input{
+    background-color: white;
+    color: black;
+    left: 9vh;
+    position: absolute;
+}
+.mes label{
+    background-color: rgb(190, 212, 202) ;
+    text-decoration: none;
+    color: black;
+}
+.ail{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+.ail input{
+    background-color: white;
+    color: black;
+    left: 9vh;
+    position: absolute;
+}
+.ail label{
+    background-color: rgb(190, 212, 202) ;
+    text-decoration: none;
+    color: black;
+}
+.tact{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+.tact label{
+    background-color: rgb(190, 212, 202) ;
+    text-decoration: none;
+    color: black;
+}
+.tact input{
+    background-color: white;
+    color: black;
+    left: 13vh;
+    position: absolute;
+}
+
+.low textarea{
+    background-color: white;
+    width: 20%;
+    top: 90%;
+    position:absolute;
+    height: 20%;
+}
+.ntem{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+.ntem label{
+    background-color: rgb(190, 212, 202) ;
+    text-decoration: none;
+    color: black;
+}
+.ntem textarea{
+    position: absolute;
+    width: 40vh;
+    top: 10%;
+    left: 12vh;
+    height: 70px;
+}
+.end button a{
+    text-decoration: none;
+    border-radius: 25px;
+    width: 10%;
+    height:7%;
+    color: white;
+    background-color: green;
+    position: absolute;
+    top: 60%;
+    left: 33%;
+}
+@media only screen and (max-width: 50rem) {
+    .hd {
+      font-size: 14px;
+    }
+    .bul {
+      position: absolute;
+      top: 100%;
+      left: 27.5%;
+    }
+    .bul label{
+        left: 30%;
+        text-align: center;
+    }
+    .bul button {
+        position: absolute;
+        left: 45%;
+        top: 310px;
+    }
+    .bol{
+      position: absolute;
+      top: 30%;
+      left: 27.5%;
+    }
+    .bol label{
+        left: 30%;
+        text-align: center;
+    }
+    .bol button a{
+        position: absolute;
+        left: 50%;
+        top: 390px;
+    }
+    .eng  {
+        position: absolute;
+        top: 160%;
+        left: 27.5%;
+    }.eng label{
+        left: 30%;
+        text-align: center;
+    }
+    .eng button {
+        position: absolute;
+        left: 45%;
+        top: 310px;
+    }
+    .low{
+        position: absolute;
+        width: 140%;
+        top: 240%;
+        height: 30%;
+    }
+    .end button a{
+        position: absolute;
+        left: 75%;
+        top: 70%;
+    }
+  }

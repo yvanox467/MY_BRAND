@@ -84,4 +84,22 @@ color:white;
     left: 50%;
     top: 10%;
 }
+@media  only screen and (max-width:50em) {
+    .ad{
+        position: absolute;
+        left: 35%;
+    }
+    .text img{
+        
+        top: 100vh;
+        left: 3%;
+        width: 45vh;
+        height: 50vh;
+    }
+    .about-text{
+        text-align: center;
+        left: 50px;
+        
+    }
+}
    

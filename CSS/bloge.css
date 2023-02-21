@@ -1,0 +1,12 @@
+*{
+    background-color: black;
+    margin: 10px;
+    margin-right: 40px;
+}
+.graph p{
+    color: aliceblue;
+    position: absolute;
+    top: 70%;
+    margin: 10px;
+    font-size: 90% ;
+}
