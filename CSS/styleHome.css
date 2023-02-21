@@ -156,9 +156,6 @@
       background-color: white;
   
   }
-  .an button a{
-  
-  }
   .logo{
       color: green;
   
@@ -450,7 +447,7 @@
  .mobile ul li{
   display: block;
  }
- .mobile ul li a{}
+ 
   #ched i{
     display: none;
   }
