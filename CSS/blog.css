@@ -5,10 +5,60 @@ font-family:'Josefin Sans',sans-serif;
 box-sizing: border-box;
 background-color: black;
 }
-.bol{
+.container{
+    display: flex;
     position: absolute;
+    left: 50px;
+    top: 30%;
+    grid-template-columns: repeat(auto-fit, minmax(360px 1fr));
+    gap:10px;
+    justify-content: center;
+}
+
+.bol{
+    height: 400px;
+    padding: 5px;
+
+}
+.bol img{
+    width: 100%;
+    height: 200px;
+
+}
+.bol label{
+    color: aliceblue;
+    top: 50vh;
+    left: 13%;
+}
+.bol button a{
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    height: 5vh;
+    border-radius: 25px;
+    background-color: green;
+    text-align: center;
+    margin-top: 30%;
+    left: 15%;
+    top: 55vh;
+
+}
+.bol button a:hover{
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+}
+.bol label:hover{
+    color: yellow;
+}
+/*.container{
+    display: flex;
+    width: 100vw;
+
+}
+.bol{
     left: 7%;
-    width: 35vh;
+    width: 35px;
     top: 20%;
     height: 30px;
 }
@@ -48,8 +98,7 @@ background-color: black;
     color: yellow;
 }
 .bul{
-    position: absolute;
-    width: 35vh;
+
     height: 30px;
     top: 30%;
     left: 40%;
@@ -123,7 +172,7 @@ background-color: black;
     color: black;
     background-color: white;
     font-weight: bolder;
-}
+}*/
 .hd{
     color: green;
     position: absolute;

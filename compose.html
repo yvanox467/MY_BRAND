@@ -9,25 +9,29 @@
 
 </head>
 <body>
+    <form >
     <div class="bel">
         <label >TITLE</label><br>
-        <input type="#">
+        <input type="text"name="title">
     </div>
     <div class="thor">
         <label >AUTHOR</label><br>
-        <input type="#">
+        <input type="text"name="author"id="author"required>
     </div>
     <div class="mpose">
         <label >COMPOSE</label><br>
-        <textarea rows="15" cols="50"></textarea>
+        <textarea rows="15" cols="50"id="body"required></textarea>
     </div>
     <div class="file">
         <label >CHOOSE A PICTURE</label>
-        <button>CHOOSE A FILE</button>
+        <button><input type="file" name="image" id="image"></button>
+        <img src="" id="preview"alt="preview">
     </div>
     <div class="ost">
-        <button><a href="blog.html">POST</a></button>
+        <button>POST</button>
     </div>
+</form>
+    <script src="js/create.js"></script>
 
 </body>
 </html>

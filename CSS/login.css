@@ -11,13 +11,22 @@
         top: 40%;
         left: 40%;
         width: 30%;
-        height: 50%;
+        height: 70%;
         border-radius: 10px;
        background-color: rgb(132, 218, 132);
         font-size: 25px;
         font-style: normal;
         line-height: 43px;
         
+      }
+      .email_error,
+      .password_error{
+    
+        margin-top: 5px;
+        color: blue;
+        width: 345px;
+        font-size: small;
+        background-color: rgba(0, 0, 0, 0);
       }
     .or form{
         left: 2%;
@@ -71,7 +80,7 @@
         background-color:rgba(0, 0, 0, 0);
         width: fit-content;
         position: absolute;
-        top: 240px;
+        top: 380px;
         left: 195px;
     }
     .gn a{

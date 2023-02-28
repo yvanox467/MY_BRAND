@@ -47,11 +47,12 @@
     left: 5px;
 }
 
-.viw {
+.viw label a{
     position: absolute;
     top: 30%;
     left: 2%;
     text-decoration: none;
+    text-align:inherit;
 }
 .viw button{
     position: absolute;
@@ -214,6 +215,9 @@
     width: 280px;
     background: rgba(255,255,255,0.1);
 }
+.hamburger{
+    color: black;
+}
 @media screen and (max-width: 35rem) {
     *{
         background-color: #259FA7;
@@ -223,10 +227,16 @@
         left: 10;
         width: 100%;
         padding: 0%;
-    }*/
+    }
+    .form{
+        display: none;
+    }
     .rew img {
         left: auto;
         top: 40px;
+    }
+    .rew p{
+        top: 60px;
     }
     .kie {
         position: absolute;
@@ -246,6 +256,13 @@
     .ot a {
         left: 90%;
     }
+}
+.min{
+    left: 30px;
+
+}
+.min p{
+    top: 40px;
 }
 
 *{

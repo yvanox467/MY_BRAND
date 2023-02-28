@@ -1,12 +1,19 @@
 *{
     background-color: black;
     margin: 10px;
-    margin-right: 40px;
+
 }
 .graph p{
     color: aliceblue;
-    position: absolute;
-    top: 70%;
-    margin: 10px;
+    top: 170px;
+    text-align:left;
+    margin: 0px;
     font-size: 90% ;
 }
+@media screen and(min-width:50rem) {
+    .graph{
+        text-align: left;
+    }
+    
+
+    }

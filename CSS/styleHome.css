@@ -13,18 +13,22 @@
       margin: 0%;
 
   }
+
   .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 40px;
     width: 100%;
   }
-  .logo {
+  .logo h2{
     text-decoration: none;
-    font-size: 1.8rem;
-    color: rgb(145, 145, 167);
-    padding-left: 20px;
+    font-size: 25px;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   .hamburger {
     padding-right: 20px;
@@ -52,13 +56,21 @@
   .nav__link a {
     display: block;
     text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'perpetua Titling MT';
     padding: 10px 0;
     color:white;
     text-decoration: none;
     text-transform: capitalize;
   }
+  .nav__link button{
+    font-weight: bold;
+    font-size: large;
+    font-size: 15px;
+  }
   .nav__link a:hover {
-    background-color: lightcoral;
+    color: green;
   }
   .hide {
     display: none;
@@ -68,16 +80,18 @@
       display: block;
       position: static;
       width: auto;
-      margin-right: 20px;
+      margin-right: 10px;
       background: none;
     }
     .nav__link a {
       display: inline-block;
       padding: 15px 20px;
+
     }
     .hamburger {
       display: none;
     }
+    
   }
   .trial{
    position: absolute;
@@ -334,19 +348,18 @@
         display: flex;
         width: 100%;
         flex-direction: column;
-        padding: 0px;
-        left: 10%;
+        
+        background-color: #FFFFFF;
+        
     }
     
     
     .trial {
       width: 100%;
       line-height: 0px;
-      left: 0%;
+      left: 10%;
       font-size: 15px;
       top: 25%;
-      
-
     }
     br{
         display: none;
@@ -354,7 +367,7 @@
     .head {
       font-size: 16px;
       line-height: 120%;
-      left: 0%;
+      left: 10%;
       top: 30%;
       width: 100%;
       
@@ -371,7 +384,7 @@
       position: absolute;
       
       width: 160px;
-      top: 50vh;
+      top: 60vh;
       
     }
     .last button a{
@@ -385,7 +398,7 @@
       width: 200px;
       height: 40px;
       left: 28%;
-      top: 37%;
+      top: 50%;
       position: absolute;
     }
     .an button a {
@@ -399,11 +412,15 @@
     .about {
       font-size: 20px;
       line-height: 36px;
-      text-align: center;
+      text-align: justify;
       width: 90%;
-      left: 0%;
+      left: 10%;
       top: 50%;
-      padding: 0;
+      
+      padding: 5px;
+      
+    
+    
 
     }
     ul li a {
@@ -424,7 +441,7 @@
   .hero{
     display: none;
   }
- .ched label{
+ /*.ched label{
   display: block;
   position: absolute;
   top: -7%;
@@ -450,9 +467,12 @@
  
   #ched i{
     display: none;
-  }
-  .logo{
-    left: 0%;
+  }*/
+  .logo h2{
+    left: 10%;
   
+  }
+  .hamburger{
+     left: 90% ;
   }
   }
