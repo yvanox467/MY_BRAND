@@ -16,12 +16,12 @@ const renderPosts = async (term) => {
         <td>${post.title}</td>
         <td>${post.author}</td>
         <td><i class="fa-solid fa-file-pen edit-icon" data-id="${post.id}"></i></td>
-        <td><i class="fa-sharp fa-solid fa-trash trash "data-id="${post.id}"></i></td>
+        <td><i class="fa-sharp fa-solid fa-trash "data-id="${post.id}"></i></td>
     </tr>
         `
     })
     container.innerHTML = template;
-   /* document.querySelectorAll('.trash').forEach(icon => {
+   document.querySelectorAll('.fa-sharp,fa-solid,fa-trash').forEach(icon => {
         icon.addEventListener('click', async event => {
           event.preventDefault();
           const postId = event.target.dataset.id;
@@ -42,7 +42,7 @@ const renderPosts = async (term) => {
               // Display an error message
             }
           });
-        });*/
+        });
 }
 
 /*searchForm.addEventListener('submit', e => {

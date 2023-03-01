@@ -1,0 +1,27 @@
+td,th{
+    padding: 20px ;
+    border:  solid white;
+    color: whhite;
+    border-style:none;
+    border-radius: initial;
+    background-color: white;
+}
+
+body{
+    color: black;
+    background-color: black;
+    border-image: 25px;
+
+}
+
+
+h1{
+    color:  black;
+}
+table{
+    width: 10vh;
+    position: absolute;
+    height: 12vh;
+    top: 30%;
+    left: 30%;
+}
