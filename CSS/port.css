@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0px;
+    font-family:'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    }
+.Hd{
+    position: absolute;
+    color: green;
+    left: 47%;
+    top: 10%;
+}
+.Adl img{
+    position: absolute;
+    left: 17%;
+    top: 30%;
+    height: 32%;
+    width: 35%;
+}
+
+.ihz img{
+    position: absolute;
+    left: 17%;
+    top: 70%;
+}
+.Adlxt{
+    position: absolute;
+    left: 55%;
+    color: white;
+    top: 35%;
+
+}
+
+.ihzxt{
+    position:absolute;
+    left: 55%;
+    color: white;
+    top: 75%;
+}
+@media only screen and (max-width: 50em){
+    .Adl img{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 80%;
+    }
+    .ihz img{
+        position: absolute;
+        width: 80%;
+        left: 10%;
+    }
+    .Adlxt{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+    }
+    .ihzxt{
+        position: absolute;
+        top: 100%;
+        left: 10%;
+
+    }
+    .Hd{
+        position: absolute;
+        left: 30%;
+        top: 10%;
+    
+    }
+}

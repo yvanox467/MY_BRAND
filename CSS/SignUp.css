@@ -1,0 +1,197 @@
+body{
+    padding: 0;
+    margin: 0px;
+    font-family:'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+ 
+    }
+.tac{
+    position: absolute;
+    border-color: red;
+    top: 20%;
+    left: 45%;
+    margin: 12px;
+    height: 420px;
+    width: 25%;
+    border-radius: 0%;
+
+    background: rgba(37, 108, 83, 0.6);
+    font-size: 15px;
+    font-style: normal;
+    line-height: 14px;
+    
+}
+form{
+    left: 12%;
+    margin: 17px;
+}
+.act{
+    /*color: white;
+    background-color: black;
+    top: 40%;
+    position: absolute;
+*/
+position: absolute;
+width: 400px;
+height: 200px;
+left: 19px;
+top: 50px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 70;
+font-size: 40px;
+line-height: 80px;
+
+color: #FFFFFF;
+
+}
+.tac label{
+    color: white;
+    padding: 15px;
+}
+.tac label st{
+    color: red;
+}
+.tac input{
+    color: black;
+    background-color: aliceblue;
+    width: 80%;
+    left: 10%;
+    top: auto;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    
+
+}
+.in button a{
+    position: absolute;
+    left: 35%;
+    top: 90%;
+    height: 20px;
+    width: 20%;
+    text-decoration: none;
+}
+.in button a{
+    color: white;
+    background-color: rgb(60, 90, 60);
+    border-radius: 25px;
+}
+@media only screen and (max-width: 50rem) {
+    body {
+      font-size: 14px;
+      top: 50%;
+    }
+    .tac {
+      position: absolute;
+      width: 80%;
+      height: 70%;
+      left: 10%;
+      top: 50%;
+    }
+    .act {
+      font-size: 30px;
+
+    }
+    .tac input {
+      width: 80%;
+    }
+  } 
+
+
+
+
+
+  /* main{
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+      }
+      
+      }
+      .trial {
+        width: 100%;
+        line-height: 0px;
+        left: 40%;
+        font-size: 15px;
+        top: 30%;
+        
+  
+      }
+      br{
+          display: none;
+      }
+      .head {
+        font-size: 16px;
+        line-height: 120%;
+        left: 40%;
+        top: 35%;
+        width: 100%;
+        
+      }
+      
+   /*   .last {
+        width: 16%;
+        height: 30px;
+        left: 35%;
+  
+      }
+      .last button {
+        font-size: 16px;
+        position: absolute;
+        
+        width: 300px;
+        top: 80vh;
+        
+      }
+      .last button a{
+          height: 40px;
+          width: 100px;
+          position: absolute;
+          left: 10%;
+          top: 30%;
+      }
+      .an {
+        width: 300px;
+        height: 40px;
+        left: 35%;
+        top: 40%;
+        position: absolute;
+      }
+      .an button a {
+        font-size: 16px;
+        line-height: 36px;
+        left: 3%;
+        top: 95vh;
+        width: 200px;
+  
+      }
+      .about {
+        font-size: 20px;
+        line-height: 36px;
+        text-align: center;
+        width: 100%;
+        left: 30%;
+        top: 55%;
+        font-size: 30px;
+  
+      }
+      ul li {
+        margin-left: 15%;
+        font-size: 12px;
+      }
+      
+      .navigate button a{
+        left: 40%;
+        width: 5%;
+        height: 3%;
+      }
+      .gate button a{
+        left: 50%;
+        width: 5%;
+        height: 3%;
+      }
+    
+
