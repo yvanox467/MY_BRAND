@@ -16,27 +16,25 @@
         
     </div>
 
-    <div class="low">
-        <div class="mes">
-            <label >Names</label>
-            <input type="">
-        </div>
-        <div class="ail">
-            <label >E-MAIL</label>
-            <input type="">
-        </div>
-        <div class="tact">
-            <label >CONTACT</label>
-            <input type="">
-        </div>
-        <div class="ntem">
-            <label >Comment</label>
-            <textarea rows="15" cols="50"></textarea>
-        </div>
-        <div class="end">
-            <button><a href="blog.html">SEND</a></button>
-        </div>
-    </div>
+    <form class="low" id="form">
+                    
+                <label >Names</label>
+                <input type="text"name="name"required id="001">
+
+                <label >E-MAIL</label>
+                <input type="email"name="email"required id="002">
+        
+                <label >CONTACT</label>
+                <input type="text"name="Contact" id="003">
+            
+                <label >Comment</label>
+                <textarea rows="15"name="comment" id="004" cols="50"></textarea>
+               
+                <button type="submit">SUBMIT</button>
+        
+    </form>
+   
     <script src="js/index.js"></script>
+    <script src="js/comment.js"></script>
  </body>
 </html>

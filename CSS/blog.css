@@ -253,19 +253,19 @@ background-color: black;
     top: 55%;
     left: 5%;
 }
-.ntem label{
+.low label{
     background-color: rgb(190, 212, 202) ;
     text-decoration: none;
     color: black;
 }
-.ntem textarea{
+.low textarea{
     position: absolute;
     width: 40vh;
     top: 10%;
     left: 12vh;
     height: 70px;
 }
-.end button a{
+.low button {
     text-decoration: none;
     border-radius: 25px;
     width: 10%;
