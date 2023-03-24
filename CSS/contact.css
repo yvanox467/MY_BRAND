@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0px;
+    font-family:'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    }
+    .call label{
+        color: white;
+        left: 26%;
+        position: absolute;
+        top: 27%;
+    }
+    .ai label{
+        color: white;
+        position: absolute;
+        left: 26%;
+        top: 45%;
+    }
+    .din label{
+        color: white;
+        position: absolute;
+        left: 26%;
+        top: 63%;
+    }
+    .pi label{
+        color: white;
+        position: absolute;
+        left: 26%;
+        top: 80%;
+    }
+    .in img{
+        width: 50px;
+        position: absolute;
+        height: 10vh;
+
+    }
+    .in{
+        
+        position: absolute;
+        left: 17%;
+        top: 60vh   ;
+        width: 50vh;
+    }
+
+    
+    .pn{
+        position: absolute;
+        left: 70px;
+        top: 25vh;
+        width: 50vh;
+    }
+    .pn img{
+        width: 60px;
+        position: absolute;
+        height: 70px;
+        top: 50vh;
+        left: 30%;
+        
+    }
+
+
+    
+    .il{
+        position: absolute;
+        top: 40%;
+        left: 17%;
+
+    }
+    .il img{
+        width: 10vh;
+    }
+    .ne{
+        position: absolute;
+        left: 17%;
+        top: 25%;
+
+    }
+    .ne img{
+        width: 7vh;
+
+    }
+    .ad{
+        position: absolute;
+        color: green;
+        left: 50%;
+        top: 10%;
+        font-weight: bold;
+    }
+    @media only screen and (max-width: 50rem) {
+        .call{
+            position: absolute;
+          left: 175px;
+          top: 27vh;
+
+          
+        }
+        .ai{
+            position: absolute;
+            left: 175px;
+            top: 45vh;
+        }
+        .din{
+            position: absolute;
+            top: 63vh;
+            left: 175px;
+        }
+        .pi{
+            position: absolute;
+            top: 80vh;
+            left: 27vh;
+        }
+       /* .in, .pn, .il, .ne {
+          position: relative;
+          left: auto;
+          top: auto;
+          text-align: center;
+        }*/
+        .in img {
+          width: 15%;
+          height: auto;
+          position: absolute;
+          top: auto;
+          left: 6%;
+        
+        }
+        .pn img{
+            width: 15%;
+            height: auto;
+         /*   position: absolute;*/
+            top: 55vh;
+            left: 3vh;
+        }
+        
+        .il img{
+
+        }
+         .ne img{
+
+         } 
+        .ad {
+          left: 40%;
+          position: absolute;
+          text-align: center;
+        }
+      }

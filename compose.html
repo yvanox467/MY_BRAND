@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPOSE</title>
+    <link rel="stylesheet" href="CSS/compose.css">
+
+</head>
+<body>
+    <form >
+    <div class="bel">
+        <label >TITLE</label><br>
+        <input type="text"name="title">
+    </div>
+    <div class="thor">
+        <label >AUTHOR</label><br>
+        <input type="text"name="author"id="author"required>
+    </div>
+    <div class="mpose">
+        <label >COMPOSE</label><br>
+        <textarea rows="15" cols="50"id="body"required></textarea>
+    </div>
+    <div class="file">
+        <label >CHOOSE A PICTURE</label>
+        <button><input type="file" name="image" id="image"></button>
+        <img src="" id="preview"alt="preview">
+    </div>
+    <div class="ost">
+        <button>POST</button>
+    </div>
+</form>
+    <script src="js/create.js"></script>
+
+</body>
+</html>

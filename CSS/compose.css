@@ -1,0 +1,111 @@
+*{
+    background-color: black;
+}
+.bel{
+    color: aliceblue;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+.bel input{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 25px;
+    width: 150%;
+}
+.thor{
+    color: aliceblue;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+
+}
+.thor input{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 25px;
+    width: 120%;
+}
+.mpose{
+    color: aliceblue;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+
+}
+.mpose textarea{
+    color: black;
+    background-color: aliceblue;
+}
+.file label{
+    color: aliceblue;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+.file button{
+    
+    background: rgba(39, 108, 71, 0.95);
+    color: white;
+    position: absolute;
+    left: 30%;
+    width: 10%;
+    border-radius: 25px;
+    height: 5%;
+    top: 85%;
+}
+
+.ost button {
+    background: rgba(39, 108, 71, 0.95);
+    color: white;
+    position: absolute;
+    left: 50%;
+    width: 10%;
+    border-radius: 25px;
+    height: 5%;
+    top: 85%;
+    
+}
+.ost button a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(39, 108, 71, 0.95);
+}
+@media screen and (max-width: 35rem) {
+    
+    .bel  {
+        position: absolute;
+        left: 2%;
+        width: 50%;
+    }
+    .thor{
+        left: 2%;
+        width: 63%;
+    } 
+    .mpose{
+        left: 2%;
+        width: 20%;
+    }
+    .mpose textarea{
+        position: absolute;
+        width: 40vh;
+        height: 120px;
+    
+    }
+    .file label{
+        position:absolute;
+        top: 65%;
+        left: 2%;
+    }
+    .file button{
+        position: absolute;
+        left: 1%;
+        top: 70%;
+        width: auto;
+    }
+    .ost button{
+        position: absolute;
+        top: 70%;
+        width: auto;
+    }
+} 
