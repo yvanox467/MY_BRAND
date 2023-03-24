@@ -43,7 +43,28 @@ const renderPosts = async (term) => {
             }
           });
         });
-}
+        document.querySelectorAll('.edit-icon').forEach(icon => {
+          icon.addEventListener('click', async event => {
+            event.preventDefault();
+            const postId = event.target.dataset.id;
+            const response = await fetch(`http://localhost:3000/posts/${postId}`);
+            const post = await response.json();
+            const title = prompt('Enter the new title', post.title);
+            const body = prompt('Enter the new body', post.body);
+            const doc = {
+              title: title,
+              body: body
+            };
+            await fetch(`http://localhost:3000/posts/${postId}`, {
+              method: 'PATCH',
+              body: JSON.stringify(doc),
+              headers: { 'Content-Type': 'application/json' }
+            });
+            renderPosts();
+          });
+        });
+      }
+
 
 /*searchForm.addEventListener('submit', e => {
     e.preventDefault();

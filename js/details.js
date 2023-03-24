@@ -1,23 +1,16 @@
 // javascript for details.html
-const id = new URLSearchParams(window.location.search).get('id');
-const container = document.querySelector('.details');
-const deleteBtn = document.querySelector('.delete');
-
+const container = document.querySelector(".container");
 const renderDetails = async () => {
-    const res = await fetch(`http://localhost:3000/posts/`+ id);
+    const uri = "http://localhost:3000/comments";
+    const res = await fetch(uri);
     const post = await res.json();
-
-    const template = `
-        <h1>${post.title}</h1>
-        <p>${post.body}</p>
-        `
-    container.innerHTML = template;
-}
-deleteBtn.addEventListener('click', async (e) => {
-    e.preventDefault();
-    await fetch(`http://localhost:3000/posts/${id}`, {
-        method: 'DELETE'
+    let template = ``;
+    post.forEach(data => {
+        template += `<div class="rap">
+        <label for="">Names: ${data.name}</label><br>
+        <label for="">Comment: ${data.comment}</label>
+    </div>`;
     });
-    window.location.replace('/index.html');
-})
-window.addEventListener('DOMContentLoaded', () => renderDetails());
+    container.innerHTML = template;
+};
+window.addEventListener("DOMContentLoaded", () => renderDetails())

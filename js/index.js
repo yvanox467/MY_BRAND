@@ -17,7 +17,7 @@ const renderPosts = async (term) => {
             <img src="Data:image/png;base64,${post.image}"> 
             <label>${post.title}</label>
             
-            <button><a href="blogex.html">READ MORE</a> </button>
+            <button><a href="blogex.html?id=${post.id}">READ MORE</a> </button>
         
             </div>
         `

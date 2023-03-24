@@ -1,10 +1,11 @@
 body{
     background-color: black;
 }
-.container{
+.rap{
     background-color: aliceblue;
     width: 30%;
     margin-top: 50px;
     padding: 30px;
+    
     border-radius: 25px;
 }
